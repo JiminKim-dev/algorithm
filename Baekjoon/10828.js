@@ -23,9 +23,6 @@ function solution(arr) {
       case 'top': 
         stack.length === 0 ? result.push('-1') : result.push(stack[stack.length -1]);
         break;
-      case 'size': 
-        result.push(stack.length)
-        break
       case 'empty':
         stack.length === 0 ? result.push('1') : result.push('0')
         break;
