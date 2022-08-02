@@ -1,8 +1,6 @@
-const input = `4
-a
-b
-c
-a`.split('\n')
+// 단어 정렬
+const fs = require('fs'); 
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 
 function solution(arr) {
   arr.shift();
